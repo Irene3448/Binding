@@ -1,5 +1,68 @@
-header{ display: none;}
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-@media(min-width: 600px){
-	
+:root{
+	--title-font-family: 'figtree';
+	--body-font-family: 'lato';
+	--margin: 1.25rem;
+
+	font-size: 16px;
+}
+
+body{
+	margin: var(--margin);
+	font-family: var(--body-font-family);
+	line-height: 1.6rem;
+}
+
+section p{
+	padding-bottom: 1.5rem;
+}
+
+header{
+	font-family: var(--title-font-family);
+	background-color: red;
+	border-radius: 0 0 2rem 2rem;
+	margin: -1.25rem;
+	padding: 2rem 1.25em;
+	/* min-height: 80%; */
+}
+
+h1{
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 3rem;
+	padding: 2.8rem 0;
+}
+
+header p{
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.author-info p{
+	font-size: 1rem;
+	padding: 0;
+}
+
+.author-info{
+	padding-top: 2rem;
+}
+
+#first-h2{
+	padding-top: 4rem;
+}
+
+h2{
+	font-family: var(--title-font-family);
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 2.2rem 0 1.5rem 0;
+}
+
+h3{
+	font-family: var(--title-font-family);
+	font-size: 1.25rem;
+	font-weight: 600;
+	padding: 1.5rem 0 1rem 0;
 }

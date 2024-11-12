@@ -1,10 +1,9 @@
-/*Permenant Styel-Delete later*/
-* {margin-top: 1em;}
 
+/* 
 :root{
-	--base-size: 20px;
+	font-size: 16px;
 }
 
 body{
-	font-size: var(--base-size);
-}
+	font-size: 1rem;
+} */
