@@ -11,7 +11,8 @@
 body{
 	margin: var(--margin);
 	font-family: var(--body-font-family);
-	line-height: 1.6rem;
+	font-size: 1.25rem;
+	line-height: 2rem;
 }
 
 section p{
@@ -20,24 +21,30 @@ section p{
 
 header{
 	font-family: var(--title-font-family);
-	background-color: red;
-	border-radius: 0 0 2rem 2rem;
+	background-color: palegreen;
+	border-bottom-right-radius:  1.5rem;
 	margin: -1.25rem;
 	padding: 2rem 1.25em;
-	/* min-height: 80%; */
+	position: relative;
+	z-index: 10;
 }
 
 h1{
 	font-weight: bold;
 	font-size: 2.5rem;
 	line-height: 3rem;
-	padding: 2.8rem 0;
+}
+
+#heading-number{
+	font-size: 5rem;
+	padding: 2rem 0;
 }
 
 header p{
 	font-weight: 400;
 	font-size: 1.5rem;
 	line-height: 2rem;
+	padding-top: 2.8rem;
 }
 
 .author-info p{
@@ -51,18 +58,96 @@ header p{
 
 #first-h2{
 	padding-top: 4rem;
+	position: sticky;
+	top: -1.8rem;
+	background-color: white;
 }
+
 
 h2{
 	font-family: var(--title-font-family);
 	font-size: 1.5rem;
 	font-weight: 600;
 	padding: 2.2rem 0 1.5rem 0;
+	position: sticky;
+	top: 0;
+	background-color: white;
 }
 
 h3{
 	font-family: var(--title-font-family);
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	font-weight: 600;
-	padding: 1.5rem 0 1rem 0;
+	margin: 0 -1.25rem;
+	padding: 1.5rem 1.25rem;
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
+#black{
+	background-color: black;
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#white{
+	background-color: lightgray;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#yellow{
+	background-color: gold;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#orange{
+	background-color: darkorange;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#red{
+	background-color: red;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#green{
+	background-color: limegreen;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#blue{
+	background-color: lightskyblue;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#purple{
+	background-color: plum;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+footer{
+	font-family: var(--title-font-family);
+	font-size: 1.25rem;
+	background-color: palegreen;
+	border-top-right-radius: 1.5rem;
+	margin: 2.5rem -1.25rem -1.25rem;
+	padding: 2.5rem 1.25rem;
+}
+
+#top{
+	background-color: palegreen;
+	padding: .5rem 1rem;
+	border-radius: 1.5rem;
+	position: fixed;
+	right: 4vw;
+	bottom: 4.5vh;
 }
