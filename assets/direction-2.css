@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+	--title-font-family:'bricolage grotesque';
+	--body-font-family:'space grotesk';
+	--author-font-family:'figtree';
+	--margin: 1.25rem;
+	
+	font-size: 16px;
+}
+
+body{
+	margin: var(--margin);
+	font-family: var(--body-font-family);
+	font-size: 1.12rem;
+	line-height: 1.75rem;
+	background-color: oldlace;
+}
+
+section p{
+	padding-bottom: 1.5rem;
+}
+
+header{
+	font-family: var(--title-font-family);
+	border-top: 2px solid black;
+}
+
+h1{
+	font-weight: 500;
+	font-size: 2.5rem;
+	line-height: 3rem;
+	background-color: oldlace;
+}
+
+#heading-number{
+	font-size: 5rem;
+	padding: 3rem 0;
+}
+
+header p{
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	padding-top: 2.8rem;
+}
+
+.author-info p{
+	font-size: 1rem;
+	padding: 0;
+}
+
+.author-info{
+	padding-top: 2rem;
+}
+
+#first-h2{
+	padding-top: 4rem;
+	position: sticky;
+	top: -1.8rem;
+	background-color: oldlace;
+}
+
+h2{
+	font-family: var(--title-font-family);
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 2.2rem 0 1.5rem 0;
+	position: sticky;
+	top:0;
+	background-color: oldlace;
+	border-top: 2px solid black;
+}
+
+h3{
+	font-family: var(--title-font-family);
+	font-size: 1.5rem;
+	font-weight: 600;
+}
