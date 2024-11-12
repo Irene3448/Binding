@@ -1,9 +1,17 @@
 
-/* 
+
 :root{
+	--margin: 1.25rem;
 	font-size: 16px;
 }
 
 body{
+	margin: var(--margin);
 	font-size: 1rem;
-} */
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+
+section p{
+	padding-bottom: 1.5rem;
+}
