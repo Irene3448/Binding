@@ -24,6 +24,7 @@ section p{
 header{
 	font-family: var(--title-font-family);
 	border-top: 2px solid black;
+	padding-bottom: 2rem;
 }
 
 h1{
@@ -76,4 +77,56 @@ h3{
 	font-family: var(--title-font-family);
 	font-size: 1.5rem;
 	font-weight: 600;
+	margin: 0 -1.25rem;
+	padding: 1.5rem 1.25rem;
+	position: sticky;
+	top:0;
+	background-color: oldlace;
+}
+
+#black{
+	background-color: black;
+	padding: 0 0.45rem;
+}
+
+#white{
+	background-color: lightgray;
+	color:lightgray;
+	padding: 0 0.25rem;
+}
+
+#yellow{
+	background-color: gold;
+	color:gold;
+	padding: 0 0.25rem;
+}
+
+#orange{
+	background-color: darkorange;
+	color:darkorange;
+	padding: 0 0.25rem;
+}
+
+#red{
+	background-color: red;
+	color:red;
+	padding: 0 0.25rem;
+}
+
+#green{
+	background-color: limegreen;
+	color:limegreen;
+	padding: 0 0.25rem;
+}
+
+#blue{
+	background-color: lightskyblue;
+	color:lightskyblue;
+	padding: 0 0.4rem;
+}
+
+#purple{
+	background-color: plum;
+	color:plum;
+	padding: 0 0.25rem;
 }
