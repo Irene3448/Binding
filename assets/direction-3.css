@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Gaegu&family=Pangolin&display=swap');
+
+:root{
+	--title-font-family: 'Pangolin';
+	--body-font-family: 'albert sans';
+	--margin: 1.25rem;
+	--accent-color: #00FF00;
+	--background-color: #231f20;
+
+	font-size: 16px;
+}
+
+body{
+	margin: var(--margin);
+	font-family: var(--body-font-family);
+	background-color: var(--background-color);
+	color: white;
+	font-size: 1.25rem;
+	line-height: 2rem;
+	/* max-width: 35rem; */
+}
+
+section p{
+	padding-bottom: 1.5rem;
+}
+
+header{
+	font-family: var(--title-font-family);
+	background-color: var(--accent-color);
+	color: var(--background-color);
+	/* border-bottom-right-radius:  1.5rem; */
+	margin: -1.25rem;
+	padding: 2rem 1.25em;
+	position: relative;
+	z-index: 10;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 2.8rem;
+	line-height: 3rem;
+	color: var(--background-color);
+}
+
+#heading-number{
+	font-size: 5.5rem;
+	padding: 3rem 0;
+}
+
+header p{
+	font-family: var(--body-font-family);
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	padding-top: 3rem;
+}
+
+.author-info p{
+	font-family: 'gaegu';
+	font-size: 1.5rem;
+	padding: 0;
+}
+
+.author-info{
+	padding-top: 3rem;
+}
+
+#first-h2{
+	padding-top: 4rem;
+	position: sticky;
+	top: -1.8rem;
+	background-color: #231F20;
+	color: var(--accent-color);
+}
+
+
+h2{
+	font-family: var(--title-font-family);
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 2.2rem 0 1.5rem 0;
+	position: sticky;
+	top: 0;
+	background-color: var(--background-color);
+	color: var(--accent-color);
+}
+
+h3{
+	font-family: var(--title-font-family);
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin: 0 -1.25rem;
+	padding: 1.5rem 1.25rem;
+	position: sticky;
+	top: 0;
+	/* background-color: var(--background-color); */
+	/* color: white; */
+}
+
+.black{
+	background-color: white;
+	color: black;
+	margin: 0 -1.25rem;
+	padding: 0 1.25rem;
+}
+
+#black{
+	color: black;
+}
+
+.white{
+	background-color: gray;
+	color: white;
+	margin: 0 -1.25rem;
+	padding: 0 1.25rem;
+}
+
+#White{
+	color: white;
+}
+
+.yellow{
+	background-color: gold;
+	color: black;
+	margin: 0 -1.25rem;
+	padding: 0 1.25rem;
+}
+
+#yellow{
+	color:black;
+}
+
+.orange{
+	background-color: darkorange;
+	color: black;
+	margin: 0 -1.25rem;
+	padding: 0 1.25rem;
+}
+
+#orange{
+	color:black;
+}
+
+.red{
+	background-color: red;
+	color: black;
+	margin: 0 -1.25rem;
+	padding: 0 1.25rem;
+}
+
+#red{
+	color:black;
+}
+
+.green{
+	background-color: limegreen;
+	color: black;
+	margin: 0 -1.25rem;
+	padding: 0 1.25rem;
+}
+
+#green{
+	color:black;
+}
+
+.blue{
+	background-color: lightskyblue;
+	color: black;
+	margin: 0 -1.25rem;
+	padding: 0 1.25rem;
+}
+
+#blue{
+	color:black;
+}
+
+.purple{
+	background-color: plum;
+	color: black;
+	margin: 0 -1.25rem;
+	padding: 0 1.25rem;
+}
+
+#purple{
+	color:black;
+}
+
+footer{
+	font-family: 'gaegu';
+	font-size: 1.5rem;
+	/* border-top: 2px solid white; */
+	background-color: var(--accent-color);
+	color: var(--background-color);
+	padding: 2.8rem 1.25rem;
+	margin: 1.5rem -1.25rem -1.25rem;
+}
+
+#top{
+	background-color: var(--accent-color);
+	color: var(--background-color);
+	padding: .5rem 1rem;
+
+	border-radius: 2rem;
+	position: fixed;
+	right: 5.25vw;
+	bottom: 4.5vh;
+}
