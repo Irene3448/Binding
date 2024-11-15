@@ -21,15 +21,16 @@ body{
 }
 
 section p{
-	padding-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: 1.2rem;
 }
 
 header{
 	font-family: var(--title-font-family);
 	background-color: var(--accent-color);
 	color: var(--background-color);
-	/* border-bottom-right-radius:  1.5rem; */
-	margin: -1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 	padding: 2rem 1.25em;
 	position: relative;
 	z-index: 10;
@@ -100,8 +101,9 @@ h3{
 .black{
 	background-color: white;
 	color: black;
-	margin: 0 -1.25rem;
 	padding: 0 1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #black{
@@ -111,8 +113,9 @@ h3{
 .white{
 	background-color: gray;
 	color: white;
-	margin: 0 -1.25rem;
 	padding: 0 1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #White{
@@ -122,8 +125,9 @@ h3{
 .yellow{
 	background-color: gold;
 	color: black;
-	margin: 0 -1.25rem;
 	padding: 0 1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #yellow{
@@ -133,8 +137,9 @@ h3{
 .orange{
 	background-color: darkorange;
 	color: black;
-	margin: 0 -1.25rem;
 	padding: 0 1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #orange{
@@ -144,8 +149,9 @@ h3{
 .red{
 	background-color: red;
 	color: black;
-	margin: 0 -1.25rem;
 	padding: 0 1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #red{
@@ -155,8 +161,9 @@ h3{
 .green{
 	background-color: limegreen;
 	color: black;
-	margin: 0 -1.25rem;
 	padding: 0 1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #green{
@@ -166,8 +173,9 @@ h3{
 .blue{
 	background-color: lightskyblue;
 	color: black;
-	margin: 0 -1.25rem;
 	padding: 0 1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #blue{
@@ -177,8 +185,9 @@ h3{
 .purple{
 	background-color: plum;
 	color: black;
-	margin: 0 -1.25rem;
 	padding: 0 1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #purple{
@@ -192,7 +201,8 @@ footer{
 	background-color: var(--accent-color);
 	color: var(--background-color);
 	padding: 2.8rem 1.25rem;
-	margin: 1.5rem -1.25rem -1.25rem;
+	border-radius: 3rem;
+	margin: -.5rem;
 }
 
 #top{
