@@ -217,3 +217,10 @@ footer{
 	right: 5.25vw;
 	bottom: 4.5vh;
 }
+
+@media (min-width: 1280px){
+	body{
+		max-width: 55rem;
+		margin-left: 18%;
+}
+}
