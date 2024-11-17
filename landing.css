@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+	--title-font-family: 'figtree';
+	--body-font-family: 'albert sans';
+	--margin: 1.25rem;
+
+	font-size: 16px;
+}
+
+body{
+	margin: var(--margin);
+	font-family: var(--body-font-family);
+	font-size: 1.25rem;
+	/* font-weight: 300; */
+	line-height: 2rem;
+}
+
+section p{
+	padding-bottom: 1.5rem;
+}
+
+header{
+	font-family: var(--title-font-family);
+	background-color: palegreen;
+	border-bottom-right-radius:  1.5rem;
+	margin: -1.25rem;
+	padding: 2rem 1.25em;
+	position: relative;
+	z-index: 10;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+#heading-number{
+	font-size: 5rem;
+	padding: 2rem 0;
+}
+
+header p{
+	font-family: var(--body-font-family);
+	font-weight: 450;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	padding-top: 2.8rem;
+	max-width: 62rem;
+}
+
+.author-info p{
+	font-size: 1rem;
+	padding: 0;
+}
+
+.author-info{
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+#first-h2{
+	padding-top: 4rem;
+	position: sticky;
+	top: -1.8rem;
+	background-color: white;
+}
+
+
+h2{
+	font-family: var(--title-font-family);
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 2.2rem 0 1.5rem 0;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	/* padding-left: 3%; */
+}
+
+h3{
+	font-family: var(--title-font-family);
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin: 0 -1.25rem;
+	padding: 1.5rem 1.25rem;
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
+
+#black{
+	background-color: black;
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#white{
+	background-color: lightgray;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#yellow{
+	background-color: gold;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#orange{
+	background-color: darkorange;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#red{
+	background-color: red;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#green{
+	background-color: limegreen;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#blue{
+	background-color: lightskyblue;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+#purple{
+	background-color: plum;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+}
+
+footer{
+	font-family: var(--title-font-family);
+	font-size: 1.25rem;
+	font-weight: 450;
+	background-color: palegreen;
+	border-top-right-radius: 1.5rem;
+	margin: 2.5rem -1.25rem -1.25rem;
+	padding: 2.5rem 1.25rem;
+	padding-left: 5%;
+}
+
+#top{
+	background-color: palegreen;
+	padding: .5rem 1rem;
+	border-radius: 1.5rem;
+	position: fixed;
+	right: 4vw;
+	bottom: 4.5vh;
+}
+
+@media (min-width: 1280px){
+	body{
+		padding-right: 15%;
+}
+
+header{	padding-left: 3%;}
+
+h1{	padding-left: 3%;}
+
+#heading-number{padding-left: 3%;}
+
+.author-info p{	padding-left: 3%;}
+
+#first-h2{padding-left: 3%;}
+
+header p{padding-left: 30%;}
+
+h2{	padding-left: 3%;}
+
+h3{	padding-left: 31.5%;}
+
+section p{	
+	max-width: 62rem;
+	padding-left: 30%;
+}
+
+}
