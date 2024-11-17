@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root{
 	--title-font-family: 'figtree';
@@ -5,4 +6,65 @@
 	--margin: 1.25rem;
 
 	font-size: 16px;
+}
+
+.navbar{
+	font-family: var(--title-font-family);
+	font-size: 1.25rem;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	background-color: red;
+	padding: .8rem 0;
+}
+
+.navbar li:first-child{
+	margin-right: 7rem;
+}
+
+.navbar li:not(:first-child){
+	margin-left: 1.5rem;
+}
+
+.navbar a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+header{
+	display:grid;
+	flex-direction:column;
+	align-items: center;
+	padding: 12rem 0;
+	background-color: gray;
+}
+
+.book1{
+	width: 18rem;
+	height: 6rem;
+	margin-left: -4.2rem;
+	padding: 1rem;
+	font-family: var(--title-font-family);
+	transform: rotate(90deg);
+	background-color: lightblue;
+}
+
+.book2{
+	width: 18rem;
+	height: 6rem;
+	margin-left: 2.8rem;
+	padding: 1rem;
+	font-family: var(--title-font-family);
+	transform: rotate(90deg);
+	background-color: plum;
+}
+
+.book3{
+	width: 18rem;
+	height: 6rem;
+	margin-left: 9.8rem;
+	padding: 1rem;
+	font-family: var(--title-font-family);
+	transform: rotate(90deg);
+	background-color: lightseagreen;
 }
