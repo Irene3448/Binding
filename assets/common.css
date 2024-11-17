@@ -10,18 +10,26 @@
 
 .navbar{
 	font-family: var(--title-font-family);
+	font-size: 1.25rem;
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	background-color: White;
+	background-color: lightgray;
 	border-radius: .5rem;
-	gap: 1.5rem;
-	padding: 1rem 0;
+	padding: .8rem 0;
+}
+
+.navbar li:first-child{
+	margin-right: 5rem;
+}
+
+.navbar li:not(:first-child){
+	margin-left: 1.5rem;
 }
 
 .navbar a:hover{
+	font-weight: bold;
 	text-decoration: underline;
-	
 }
 
 body{
@@ -37,7 +45,6 @@ section p{
 
 header{
 	font-family: var(--title-font-family);
-	background-color: palegreen;
 	border-bottom-right-radius:  1.5rem;
 	margin: -1.25rem;
 	padding: 1rem 1.25em;
@@ -53,7 +60,7 @@ h1{
 
 #heading-number{
 	font-size: 5rem;
-	padding: 2rem 0;
+	padding: 2.2rem 0 2rem 0;
 }
 
 header p{
@@ -61,8 +68,7 @@ header p{
 	font-weight: 450;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	padding-top: 2.8rem;
-	max-width: 62rem;
+	padding-top: 2rem;
 }
 
 .author-info p{
@@ -110,7 +116,6 @@ footer{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
 	font-weight: 450;
-	background-color: palegreen;
 	border-top-right-radius: 1.5rem;
 	margin: 2.5rem -1.25rem -1.25rem;
 	padding: 2.5rem 1.25rem;
@@ -140,7 +145,10 @@ h1{	padding-left: 3%;}
 
 #first-h2{padding-left: 3%;}
 
-header p{padding-left: 30%;}
+header p{
+	padding-left: 30%;
+	max-width: 62rem;
+}
 
 h2{	padding-left: 3%;}
 
