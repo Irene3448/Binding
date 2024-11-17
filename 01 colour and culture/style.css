@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root{
 	--title-font-family: 'figtree';
-	--body-font-family: 'lato';
+	--body-font-family: 'albert sans';
 	--margin: 1.25rem;
 
 	font-size: 16px;
@@ -12,6 +12,7 @@ body{
 	margin: var(--margin);
 	font-family: var(--body-font-family);
 	font-size: 1.25rem;
+	/* font-weight: 300; */
 	line-height: 2rem;
 }
 
@@ -41,7 +42,8 @@ h1{
 }
 
 header p{
-	font-weight: 400;
+	font-family: var(--body-font-family);
+	font-weight: 450;
 	font-size: 1.5rem;
 	line-height: 2rem;
 	padding-top: 2.8rem;
@@ -55,6 +57,7 @@ header p{
 
 .author-info{
 	padding-top: 2rem;
+	padding-bottom: 1rem;
 }
 
 #first-h2{
@@ -78,8 +81,8 @@ h2{
 
 h3{
 	font-family: var(--title-font-family);
-	font-size: 1.5rem;
-	font-weight: 600;
+	font-size: 1.25rem;
+	font-weight: 500;
 	margin: 0 -1.25rem;
 	padding: 1.5rem 1.25rem;
 	position: sticky;
@@ -140,6 +143,7 @@ h3{
 footer{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
+	font-weight: 450;
 	background-color: palegreen;
 	border-top-right-radius: 1.5rem;
 	margin: 2.5rem -1.25rem -1.25rem;
@@ -175,7 +179,7 @@ header p{padding-left: 30%;}
 
 h2{	padding-left: 3%;}
 
-h3{	padding-left: 5%;}
+h3{	padding-left: 31.5%;}
 
 section p{	
 	max-width: 62rem;
