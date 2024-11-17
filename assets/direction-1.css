@@ -17,8 +17,6 @@ body{
 
 section p{
 	padding-bottom: 1.5rem;
-	max-width: 62rem;
-	padding-left: 30%;
 }
 
 header{
@@ -29,20 +27,17 @@ header{
 	padding: 2rem 1.25em;
 	position: relative;
 	z-index: 10;
-	padding-left: 3%;
 }
 
 h1{
 	font-weight: bold;
 	font-size: 2.5rem;
 	line-height: 3rem;
-	padding-left: 3%;
 }
 
 #heading-number{
 	font-size: 5rem;
 	padding: 2rem 0;
-	padding-left: 3%;
 }
 
 header p{
@@ -51,13 +46,11 @@ header p{
 	line-height: 2rem;
 	padding-top: 2.8rem;
 	max-width: 62rem;
-	padding-left: 30%;
 }
 
 .author-info p{
 	font-size: 1rem;
 	padding: 0;
-	padding-left: 3%;
 }
 
 .author-info{
@@ -69,7 +62,6 @@ header p{
 	position: sticky;
 	top: -1.8rem;
 	background-color: white;
-	padding-left: 3%;
 }
 
 
@@ -81,7 +73,7 @@ h2{
 	position: sticky;
 	top: 0;
 	background-color: white;
-	padding-left: 3%;
+	/* padding-left: 3%; */
 }
 
 h3{
@@ -93,7 +85,6 @@ h3{
 	position: sticky;
 	top: 0;
 	background-color: white;
-	padding-left: 5%;
 }
 
 
@@ -168,6 +159,27 @@ footer{
 @media (min-width: 1280px){
 	body{
 		padding-right: 15%;
-
 }
+
+header{	padding-left: 3%;}
+
+h1{	padding-left: 3%;}
+
+#heading-number{padding-left: 3%;}
+
+.author-info p{	padding-left: 3%;}
+
+#first-h2{padding-left: 3%;}
+
+header p{padding-left: 30%;}
+
+h2{	padding-left: 3%;}
+
+h3{	padding-left: 5%;}
+
+section p{	
+	max-width: 62rem;
+	padding-left: 30%;
+}
+
 }
