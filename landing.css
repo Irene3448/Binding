@@ -44,15 +44,7 @@ header p{
 }
 
 .book1{
-	width: 7rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	text-align: center;
-	padding: 0.5rem;
-	position: relative;
-	background-color: #ff0000;
+	display:none;
 }
 /* 
 .boxes1{
@@ -73,7 +65,12 @@ header p{
 } */
 
 .book2{
+	display:none;
+}
+
+.book3, .book4, .book5{
 	width: 7rem;
+	height: 32rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -81,42 +78,18 @@ header p{
 	text-align: center;
 	padding: 0.5rem;
 	position: relative;
-	background-color: #ff0000;
+	overflow: hidden;
 }
 
 .book3{
-	width: 7rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	text-align: center;
-	padding: 0.5rem;
-	position: relative;
 	background-color: #ff0000;
 }
 
 .book4{
-	width: 7rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	text-align: center;
-	padding: 0.5rem;
-	position: relative;
 	background-color: #00ff00;
 }
 
 .book5{
-	width: 7rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	text-align: center;
-	padding: 0.5rem;
-	position: relative;
 	background-color: #0000ff;
 	color: white;
 }
@@ -146,35 +119,84 @@ header p{
 	padding-left: 1.5rem;
 }
 
-.author{
+.author3{
 	font-family: var(--title-font-family);
-	font-size: .74rem;
+	font-size: .8rem;
+	padding-top: 3.5rem;
+}
+
+.author4{
+	font-family: var(--title-font-family);
+	font-size: .8rem;
+	padding-top: 11.6rem;
+}
+
+.author5{
+	font-family: var(--title-font-family);
+	font-size: .8rem;
+	padding-top: -.5rem;
 }
 
 .year{
 	font-family: var(--title-font-family);
-	font-size: .74rem;
-	padding: .1rem 0 .5rem 0;
+	font-size: .8rem;
+	padding: .2rem 0 .5rem 0;
 }
 
 @media(min-width: 1280px){
-
-	ul li:first-child, ul li:nth-child(2), ul li:nth-child(3){
+	
+	.book1, .book2, .book3, .book4, .book5{
 		background-color: #231F20;
 		color: white;
 	}
 
-	ul li:first-child:hover{
+	.book1{
+		width: 7rem;
+		height: 30rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		padding: 0.5rem;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.book1:hover{
+		background-color: pink;
+		color:#231F20;
+	}
+
+	.book2{
+		width: 7rem;
+		height: 30rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		padding: 0.5rem;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.book2:hover{
+		background-color: pink;
+		color:#231F20;
+	}
+
+	.book3:hover{
 		background-color: #ff0000;
 		color:#231F20;
 	}
 
-	ul li:nth-child(2):hover{
+	.book4:hover{
 		background-color: #00ff00;
 		color: #231F20;
 	}
 
-	ul li:nth-child(3):hover{
+	.book5:hover{
 		background-color: #0000ff;
 		color:white;
 	}
