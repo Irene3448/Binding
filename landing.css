@@ -26,17 +26,24 @@ h1{
 	font-weight: bold;
 }
 
+#the{
+	color: 
+}
+
+#power{
+	color: 
+}
+
 header p{
 	font-family: var(--body-font-family);
-	font-size: 1.125rem;
-	font-weight: 450;
-	line-height: 1.5rem;
+	font-size: 1.25rem;
+	line-height: 1.8rem;
 	padding: 2rem 0;
 }
 
 .navbar{
 	display:flex;
-	gap: .5rem;
+	gap: 1rem;
 	align-items: flex-end;
 	justify-content: center;
 	padding-bottom: 2rem;
@@ -69,7 +76,7 @@ header p{
 }
 
 .book3, .book4, .book5{
-	width: 7rem;
+	width: 6.5rem;
 	height: 32rem;
 	display: flex;
 	flex-direction: column;
@@ -83,10 +90,12 @@ header p{
 
 .book3{
 	background-color: #ff0000;
+	/* transform: rotate(2deg); */
 }
 
 .book4{
 	background-color: #00ff00;
+	/* transform: rotate(2deg); */
 }
 
 .book5{
