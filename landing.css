@@ -11,13 +11,13 @@
 }
 
 body{
-	background-color: #231F20;
+	background-color: #EBECE7;
 	height: 100%;
 }
 
 header{
 	padding: 2.5rem 1.25rem 2.5 1.25rem;
-	color: white;
+	color: black;
 }
 
 h1{
@@ -28,7 +28,9 @@ h1{
 
 header p{
 	font-family: var(--body-font-family);
-	font-size: 1.5rem;
+	font-size: 1.125rem;
+	font-weight: 450;
+	line-height: 1.5rem;
 	padding: 2rem 0;
 }
 
@@ -41,9 +43,8 @@ header p{
 	
 }
 
-.book{
+.book1{
 	width: 7rem;
-	/* height: 32rem; */
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -51,55 +52,106 @@ header p{
 	text-align: center;
 	padding: 0.5rem;
 	position: relative;
+	background-color: #ff0000;
+}
+/* 
+.boxes1{
+	display:flex;
+	gap:.2rem;
 }
 
-/* first book */
-ul li:first-child{
-	background-color: #ff0000;
-} 
+#box1{
+	width:5px;
+	height: 10px;
+	background-color: #231f20;
+}
 
-/* second book */
-ul li:nth-child(2){
+.box{
+	width:5px;
+	height: 10px;
+	background-color: #231f20;
+} */
+
+.book2{
+	width: 7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	padding: 0.5rem;
+	position: relative;
+	background-color: #ff0000;
+}
+
+.book3{
+	width: 7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	padding: 0.5rem;
+	position: relative;
+	background-color: #ff0000;
+}
+
+.book4{
+	width: 7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	padding: 0.5rem;
+	position: relative;
 	background-color: #00ff00;
 }
 
-/* third book */
-ul li:nth-child(3){
+.book5{
+	width: 7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	padding: 0.5rem;
+	position: relative;
 	background-color: #0000ff;
 	color: white;
-} 
+}
 
-/* numbers */
-li p:first-child{
+.booknumbers{
 	font-family: var(--title-font-family);
 	font-size: 1.5rem;
 	font-weight: 400;
 	padding: 1.5rem;
 }
 
-/* article title */
-li p:nth-child(2){
+.book-title{
 	font-family: var(--title-font-family);
 	font-size: 2rem;
 	font-weight: 500;
 	writing-mode: vertical-rl;
 	padding-bottom: 2.5rem;
-
-	padding-left: 1rem;
+	padding-left: .8rem;
 }
 
-#book3-title{
+#book5-title{
+	font-family: var(--title-font-family);
+	font-size: 2rem;
+	font-weight: 500;
+	writing-mode: vertical-rl;
+	padding-bottom: 2.5rem;
 	padding-left: 1.5rem;
 }
 
-/* author name */
-li p:nth-child(3){
+.author{
 	font-family: var(--title-font-family);
 	font-size: .74rem;
 }
 
-/* published year */
-li p:nth-child(4){
+.year{
 	font-family: var(--title-font-family);
 	font-size: .74rem;
 	padding: .1rem 0 .5rem 0;
@@ -108,8 +160,8 @@ li p:nth-child(4){
 @media(min-width: 1280px){
 
 	ul li:first-child, ul li:nth-child(2), ul li:nth-child(3){
-		background-color: white;
-		color: #231F20;
+		background-color: #231F20;
+		color: white;
 	}
 
 	ul li:first-child:hover{
