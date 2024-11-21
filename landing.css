@@ -111,12 +111,12 @@ li p:nth-child(4){
 
 	ul li:first-child:hover{
 		background-color: #ff0000;
-		color:white;
+		color:#231F20;
 	}
 
 	ul li:nth-child(2):hover{
 		background-color: #00ff00;
-		color: white;
+		color: #231F20;
 	}
 
 	ul li:nth-child(3):hover{
