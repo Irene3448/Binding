@@ -14,16 +14,29 @@
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	background-color: ECE1DB;
-	padding: .8rem 0;
+	background-color: black;
 	margin: -1.25rem;
+	padding: .8rem 0.8rem;
+	color:#ECE1DB;
 }
 
+/*nav-home*/
 .navbar li:first-child{
-	margin-right: 7rem;
+	padding-right: 7rem;
 }
 
-.navbar li:not(:first-child){
+/*nav-01*/
+.navbar li:nth-child(2){
+	padding-left: 1.5rem;
+}
+
+/*nav-02*/
+.navbar li:nth-child(3){
+	padding-left: 1.5rem;
+}
+
+/*nav-03*/
+.navbar li:nth-child(4){
 	margin-left: 1.5rem;
 }
 
@@ -49,7 +62,7 @@ header{
 	border-bottom-right-radius:  1.5rem;
 	margin: -1.25rem;
 	margin-top: 1.25rem;
-	padding: .5rem 1.25em;
+	padding: 1.25em;
 	position: relative;
 	z-index: 10;
 }
@@ -62,7 +75,7 @@ h1{
 
 #heading-number{
 	font-size: 5rem;
-	padding: 2.2rem 0 2rem 0;
+	padding: 1.8rem 0 2rem 0;
 }
 
 header p{

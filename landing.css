@@ -5,52 +5,37 @@
 	--body-font-family: 'albert sans';
 	--margin: 1.25rem;
 
-	--base-color: #231f20;
-
 	font-size: 16px;
 }
 
-/* body{
-	background-color: #ECE1DB;
-	height: 100%;
+/*nav-home*/
+.navbar li:first-child{
+	text-decoration: underline;
 }
 
 header{
-	padding: 2.5rem 1.25rem 2.5 1.25rem;
-	color:#211610;
-} */
-
-/* h1{
-	font-family: var(--title-font-family);
-	font-size: 3rem;
-	font-weight: bold;
-	line-height: 3.5rem;
-} */
-
-/* header p{
-	font-family: var(--body-font-family);
-	font-size: 1.25rem;
-	line-height: 1.8rem;
-	padding: 2rem 0;
-} */
+	margin-top:-1.25rem;
+}
+h1{
+	padding-top: 2.2rem;
+}
+header p{
+	padding-bottom: 2rem;
+}
 
 .bookshelf{
-	display:flex;
+	--columns:3;
+
+	display:grid;
+	grid-template-columns: repeat(var(--columns), 1fr);
 	gap: 0.5rem;
 	align-items: flex-end;
 	justify-content: center;
 	padding: 2rem 0 ;
+	margin:-1.25rem;
 }
 
-.book1{
-	display:none;
-}
-
-.book2{
-	display:none;
-}
-
-.book3, .book4, .book5{
+.book1, .book2, .book3{
 	width: 100%;
 	height: 32rem;
 	display: flex;
@@ -63,21 +48,16 @@ header{
 	overflow: hidden;
 }
 
-.book3{
+.book1{
 	background-color: #99B0FE;
-	color:#211610;
-	/* transform: rotate(2deg); */
 }
 
-.book4{
+.book2{
 	background-color: #FF66FF;
-	color: #211610;
-	/* transform: rotate(2deg); */
 }
 
-.book5{
+.book3{
 	background-color: #CEC045;
-	color: #211610;
 }
 
 .booknumbers{
@@ -96,7 +76,7 @@ header{
 	padding-left: 1rem;
 }
 
-#book5-title{
+#book3-title{
 	font-family: var(--title-font-family);
 	font-size: 2rem;
 	font-weight: 600;
@@ -105,19 +85,19 @@ header{
 	padding-left: 1.8rem;
 }
 
-.author3{
+.author1{
 	font-family: var(--title-font-family);
 	font-size: .8rem;
 	padding-top: 3.75rem;
 }
 
-.author4{
+.author2{
 	font-family: var(--title-font-family);
 	font-size: .8rem;
-	padding-top: 12.15rem;
+	padding-top: 12rem;
 }
 
-.author5{
+.author3{
 	font-family: var(--title-font-family);
 	font-size: .8rem;
 	padding-top: -.5rem;
@@ -126,7 +106,7 @@ header{
 .year{
 	font-family: var(--title-font-family);
 	font-size: .8rem;
-	padding: .2rem 0 .5rem 0;
+	margin-top: -2.2rem;
 }
 
 @media(min-width: 1280px){
@@ -136,22 +116,10 @@ header{
 		gap: 1rem;
 	}
 
-	.circle{
-		width: 1.5rem;
-		height: 1.5rem;
-		border-radius: 10rem;
-		background-color: #211610;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		margin: 2rem;
-	}
-
 	.book1{
 		width: 15%;
 		height: 32rem;
 		display: flex;
-		gap: 5rem;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
@@ -159,35 +127,17 @@ header{
 		padding: 0.5rem;
 		position: relative;
 		overflow: hidden;
-		background-color: #03BA7A;
-		/* transform: rotate(30deg); */
 	}
 
 	.book1:hover{
-		background-color: #EFC61C;
-		color:#211610;
+		background-color: red;
 	}
 
-	.book1-title{
-		font-family: var(--title-font-family);
-		font-size: 2rem;
-		font-weight: 600;
-		writing-mode: vertical-rl;
-		padding-bottom: 2.5rem;
-		padding-left: 1.5rem;
-	}
-
-	.author1{
-		font-family: var(--title-font-family);
-		font-size: .8rem;
-		padding-top: 8.45rem;
-	}
 
 	.book2{
 		width: 15%;
 		height: 32rem;
 		display: flex;
-		gap: 1rem;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
@@ -195,14 +145,10 @@ header{
 		padding: 0.5rem;
 		position: relative;
 		overflow: hidden;
-		background-color: #CB8E61;
-		/* transform: rotate(15deg); */
-
-	}
+	} 
 
 	.book2:hover{
-		background-color: #C7A0F9;
-		color:#211610;
+		background-color: lawngreen;
 	}
 
 	.book3{
@@ -216,46 +162,9 @@ header{
 		padding: 0.5rem;
 		position: relative;
 		overflow: hidden;
-	}
+	} 
 
 	.book3:hover{
-		background-color: red;
-		color:#211610;
-	}
-
-
-	.book4{
-		width: 15%;
-		height: 32rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		text-align: center;
-		padding: 0.5rem;
-		position: relative;
-		overflow: hidden;
-	} 
-
-	.book4:hover{
-		background-color: lawngreen;
-		color: #211610;
-	}
-
-	.book5{
-		width: 15%;
-		height: 32rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		text-align: center;
-		padding: 0.5rem;
-		position: relative;
-		overflow: hidden;
-	} 
-
-	.book5:hover{
 		background-color: blue;
 		color:white;
 	}
