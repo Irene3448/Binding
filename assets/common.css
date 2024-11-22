@@ -105,7 +105,7 @@ em{
 	padding-top: 4rem;
 	position: sticky;
 	top: -1.8rem;
-	background-color: ECE1DB;
+	background-color: #ECE1DB;
 }
 
 
@@ -116,7 +116,7 @@ h2{
 	padding: 2.2rem 0 1.5rem 0;
 	position: sticky;
 	top: 0;
-	background-color: ECE1DB;
+	background-color: #ECE1DB;
 	/* padding-left: 3%; */
 }
 
@@ -128,7 +128,7 @@ h3{
 	padding: 1.5rem 1.25rem;
 	position: sticky;
 	top: 0;
-	background-color: ECE1DB;
+	background-color: #ECE1DB;
 }
 
 
