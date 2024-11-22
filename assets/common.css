@@ -5,6 +5,8 @@
 	--body-font-family: 'albert sans';
 	--margin: 1.25rem;
 
+	--background-color: #F2F2F2;
+
 	font-size: 16px;
 }
 
@@ -18,7 +20,7 @@
 	background-color: black;
 	margin: -1.25rem;
 	padding: 1rem 1.5rem; /* adjust side padding later */
-	color:#ECE1DB;
+	color: var(--background-color);
 }
 
 .nav-article{
@@ -48,7 +50,7 @@ body{
 	font-family: var(--body-font-family);
 	font-size: 1.125rem;
 	line-height: 2rem;
-	background-color: #ECE1DB;
+	background-color: var(--background-color);
 }
 
 section p{
@@ -103,7 +105,7 @@ em{
 	padding-top: 4rem;
 	position: sticky;
 	top: -1.8rem;
-	background-color: #ECE1DB;
+	background-color: var(--background-color);
 }
 
 
@@ -114,7 +116,7 @@ h2{
 	padding: 2.2rem 0 1.5rem 0;
 	position: sticky;
 	top: 0;
-	background-color: #ECE1DB;
+	background-color: var(--background-color);
 	/* padding-left: 3%; */
 }
 
@@ -126,7 +128,7 @@ h3{
 	padding: 1.5rem 1.25rem;
 	position: sticky;
 	top: 0;
-	background-color: #ECE1DB;
+	background-color: var(--background-color);
 }
 
 
