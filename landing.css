@@ -48,32 +48,25 @@ header p{
 	align-items: flex-end;
 	justify-content: center;
 	padding: 2rem 0 ;
-	
 }
 
 .book1{
 	display:none;
 }
-/* 
-.boxes1{
-	display:flex;
-	gap:.2rem;
-}
-
-#box1{
-	width:5px;
-	height: 10px;
-	background-color: #231f20;
-}
-
-.box{
-	width:5px;
-	height: 10px;
-	background-color: #231f20;
-} */
 
 .book2{
 	display:none;
+}
+
+.circle{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 10rem;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 1rem;
 }
 
 .book3, .book4, .book5{
@@ -157,15 +150,20 @@ header p{
 
 @media(min-width: 1280px){
 	
+	.navbar{
+		/* display:flex; */
+		gap: 1rem;
+
 	.book1, .book2, .book3, .book4, .book5{
 		background-color: #231F20;
 		color: white;
 	}
 
 	.book1{
-		width: 7rem;
-		height: 30rem;
+		width: 15%;
+		height: 32rem;
 		display: flex;
+		gap: 5rem;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
@@ -173,6 +171,7 @@ header p{
 		padding: 0.5rem;
 		position: relative;
 		overflow: hidden;
+		transform: rotate(30deg);
 	}
 
 	.book1:hover{
@@ -181,8 +180,29 @@ header p{
 	}
 
 	.book2{
-		width: 7rem;
-		height: 30rem;
+		width: 15%;
+		height: 32rem;
+		display: flex;
+		gap: 1rem;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		padding: 0.5rem;
+		position: relative;
+		overflow: hidden;
+		transform: rotate(15deg);
+
+	}
+
+	.book2:hover{
+		background-color: pink;
+		color:#231F20;
+	}
+
+	.book3{
+		width: 15%;
+		height: 32rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
@@ -193,20 +213,42 @@ header p{
 		overflow: hidden;
 	}
 
-	.book2:hover{
-		background-color: pink;
-		color:#231F20;
-	}
-
 	.book3:hover{
 		background-color: #ff0000;
 		color:#231F20;
 	}
 
+
+	.book4{
+		width: 15%;
+		height: 32rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		padding: 0.5rem;
+		position: relative;
+		overflow: hidden;
+	} 
+
 	.book4:hover{
 		background-color: #00ff00;
 		color: #231F20;
 	}
+
+	.book5{
+		width: 15%;
+		height: 32rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		padding: 0.5rem;
+		position: relative;
+		overflow: hidden;
+	} 
 
 	.book5:hover{
 		background-color: #0000ff;
