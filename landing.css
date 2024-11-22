@@ -9,7 +9,7 @@
 }
 
 /*nav-home*/
-.navbar li:first-child{
+#home{
 	text-decoration: underline;
 }
 

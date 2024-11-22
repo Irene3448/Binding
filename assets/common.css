@@ -11,37 +11,35 @@
 .navbar{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
+	font-weight:bold;
 	list-style: none;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	background-color: black;
 	margin: -1.25rem;
-	padding: .8rem 0.8rem;
+	padding: 1rem 1.5rem; /* adjust side padding later */
 	color:#ECE1DB;
 }
 
-/*nav-home*/
-.navbar li:first-child{
-	padding-right: 7rem;
+.nav-article{
+	display: flex;
 }
 
 /*nav-01*/
-.navbar li:nth-child(2){
-	padding-left: 1.5rem;
+#nav01{
+	padding-left: 2rem;
 }
 
-/*nav-02*/
-.navbar li:nth-child(3){
-	padding-left: 1.5rem;
+#nav02{
+	padding-left: 2rem;
 }
 
 /*nav-03*/
-.navbar li:nth-child(4){
-	margin-left: 1.5rem;
+#nav03{
+	padding-left: 1.8rem;
 }
 
 .navbar a:hover{
-	font-weight: bold;
 	text-decoration: underline;
 }
 

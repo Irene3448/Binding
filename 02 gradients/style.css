@@ -1,12 +1,16 @@
 
+.navbar{
+	color:#FF66FF;
+}
+
 header{
-	background-color: lightpink;
+	background-color: #FF66FF;
 }
 
 footer{
-	background-color: lightpink;
+	background-color: #FF66FF;
 }
 
 #top{
-	background-color: lightpink;
+	background-color: #FF66FF;
 }
