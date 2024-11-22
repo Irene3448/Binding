@@ -109,6 +109,10 @@ header p{
 	margin-top: -2.2rem;
 }
 
+footer{
+	margin: 0 -1.25rem -1.25rem;
+}
+
 @media(min-width: 1280px){
 	
 	.bookshelf{
@@ -168,4 +172,5 @@ header p{
 		background-color: blue;
 		color:white;
 	}
+	
 }
