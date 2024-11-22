@@ -1,6 +1,10 @@
 
+.navbar{
+	color:#99B0FE;
+}
+
 header{
-	background-color: palegreen;
+	background-color: #99B0FE;
 }
 
 #black{
@@ -53,9 +57,9 @@ header{
 }
 
 footer{
-	background-color: palegreen;
+	background-color: #99B0FE;
 }
 
 #top{
-	background-color: palegreen;
+	background-color: #99B0FE;
 }
