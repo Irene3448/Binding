@@ -10,7 +10,7 @@
 	font-size: 16px;
 }
 
-body{
+/* body{
 	background-color: #ECE1DB;
 	height: 100%;
 }
@@ -18,31 +18,23 @@ body{
 header{
 	padding: 2.5rem 1.25rem 2.5 1.25rem;
 	color:#211610;
-}
+} */
 
-h1{
+/* h1{
 	font-family: var(--title-font-family);
 	font-size: 3rem;
 	font-weight: bold;
 	line-height: 3.5rem;
-}
+} */
 
-#the{
-	color: 
-}
-
-#power{
-	color: 
-}
-
-header p{
+/* header p{
 	font-family: var(--body-font-family);
 	font-size: 1.25rem;
 	line-height: 1.8rem;
 	padding: 2rem 0;
-}
+} */
 
-.navbar{
+.bookshelf{
 	display:flex;
 	gap: 0.5rem;
 	align-items: flex-end;
@@ -56,17 +48,6 @@ header p{
 
 .book2{
 	display:none;
-}
-
-.circle{
-	width: 1rem;
-	height: 1rem;
-	border-radius: 10rem;
-	background-color: white;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	padding: 1rem;
 }
 
 .book3, .book4, .book5{
@@ -150,13 +131,20 @@ header p{
 
 @media(min-width: 1280px){
 	
-	.navbar{
+	.bookshelf{
 		/* display:flex; */
 		gap: 1rem;
+	}
 
-	.book1, .book2, .book3, .book4, .book5{
-		background-color: #231F20;
-		color: white;
+	.circle{
+		width: 1.5rem;
+		height: 1.5rem;
+		border-radius: 10rem;
+		background-color: #211610;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 2rem;
 	}
 
 	.book1{
@@ -171,12 +159,28 @@ header p{
 		padding: 0.5rem;
 		position: relative;
 		overflow: hidden;
-		transform: rotate(30deg);
+		background-color: #03BA7A;
+		/* transform: rotate(30deg); */
 	}
 
 	.book1:hover{
-		background-color: pink;
-		color:#231F20;
+		background-color: #EFC61C;
+		color:#211610;
+	}
+
+	.book1-title{
+		font-family: var(--title-font-family);
+		font-size: 2rem;
+		font-weight: 600;
+		writing-mode: vertical-rl;
+		padding-bottom: 2.5rem;
+		padding-left: 1.5rem;
+	}
+
+	.author1{
+		font-family: var(--title-font-family);
+		font-size: .8rem;
+		padding-top: 8.45rem;
 	}
 
 	.book2{
@@ -191,13 +195,14 @@ header p{
 		padding: 0.5rem;
 		position: relative;
 		overflow: hidden;
-		transform: rotate(15deg);
+		background-color: #CB8E61;
+		/* transform: rotate(15deg); */
 
 	}
 
 	.book2:hover{
-		background-color: pink;
-		color:#231F20;
+		background-color: #C7A0F9;
+		color:#211610;
 	}
 
 	.book3{
@@ -214,8 +219,8 @@ header p{
 	}
 
 	.book3:hover{
-		background-color: #ff0000;
-		color:#231F20;
+		background-color: red;
+		color:#211610;
 	}
 
 
@@ -233,8 +238,8 @@ header p{
 	} 
 
 	.book4:hover{
-		background-color: #00ff00;
-		color: #231F20;
+		background-color: lawngreen;
+		color: #211610;
 	}
 
 	.book5{
@@ -251,7 +256,7 @@ header p{
 	} 
 
 	.book5:hover{
-		background-color: #0000ff;
+		background-color: blue;
 		color:white;
 	}
 }
