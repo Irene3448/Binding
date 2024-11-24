@@ -19,7 +19,9 @@ header{
 h1{
 	padding-top: 2.2rem;
 }
-section p{
+header p{
+	font-size: 1.125rem;
+	line-height: 2rem;
 	padding-top: 2rem;
 }
 
@@ -115,9 +117,12 @@ footer{
 
 @media(min-width: 1280px){
 	
+	.colophon{
+		display: grid;
+	}
+
 	.bookshelf{
-		/* display:flex; */
-		gap: 1rem;
+		display:grid;
 	}
 
 	.book1{
