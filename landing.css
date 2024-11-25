@@ -84,9 +84,11 @@ footer{
 
 	.bookshelf{
 		display:grid;
+		width: 50%;
+
 	}
 
-	.book1{
+	/* .book1{
 		width: 15%;
 		height: 32rem;
 		display: flex;
@@ -96,7 +98,7 @@ footer{
 		text-align: center;
 		padding: 0.5rem;
 		position: relative;
-		overflow: hidden;
+		overflow: hidden; */
 	}
 
 	.book1:hover{
