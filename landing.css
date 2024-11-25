@@ -64,7 +64,9 @@ header p{
 }
 
 .booknumbers{
-	padding: 1.5rem 1.25rem 2rem 1.25rem;
+	/* padding: 1.5rem 1.25rem 2rem 1.25rem; */
+	padding: 0rem 1.25rem 2rem 1.25rem;
+	line-height: 4.5rem;
 }
 
 .book-title{
@@ -78,10 +80,7 @@ footer{
 }
 
 @media(min-width: 1280px){
-	
-	.colophon{
-		display: grid;
-	}
+
 
 	.bookshelf{
 		display:grid;
