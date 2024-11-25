@@ -9,8 +9,12 @@
 }
 
 /*nav-home*/
-#home{
+/* #home{
 	text-decoration: underline;
+} */
+
+.navbar{
+	display: none;
 }
 
 header{
@@ -26,26 +30,23 @@ header p{
 }
 
 .bookshelf{
-	--columns:3;
-
-	display:grid;
-	grid-template-columns: repeat(var(--columns), 1fr);
-	gap: 0.5rem;
-	align-items: flex-end;
+	font-family: var(--title-font-family);
+	font-size: 4.5rem;
+	font-weight: bold;
+	display:flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
 	justify-content: center;
-	padding: 2rem 0 ;
+	padding: 2rem 0;
 	margin:-1.25rem;
 }
 
 .book1, .book2, .book3{
 	width: 100%;
-	height: 32rem;
+	height: 400px;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
 	align-items: center;
-	text-align: center;
-	padding: 0.5rem;
 	position: relative;
 	overflow: hidden;
 }
@@ -63,53 +64,14 @@ header p{
 }
 
 .booknumbers{
-	font-family: var(--title-font-family);
-	font-size: 1.5rem;
-	font-weight: bold;
-	padding: 1.5rem 0 1rem 0;
+	padding: 1.5rem 1.25rem 2rem 1.25rem;
 }
 
 .book-title{
-	font-family: var(--title-font-family);
-	font-size: 2rem;
-	font-weight: 600;
-	writing-mode: vertical-rl;
-	padding-bottom: 2.5rem;
-	padding-left: 1rem;
+	line-height: 4.5rem;
+	padding: 0 1.25rem;
 }
 
-#book3-title{
-	font-family: var(--title-font-family);
-	font-size: 2rem;
-	font-weight: 600;
-	writing-mode: vertical-rl;
-	padding-bottom: 2.5rem;
-	padding-left: 1.8rem;
-}
-
-.author1{
-	font-family: var(--title-font-family);
-	font-size: .8rem;
-	padding-top: 3.75rem;
-}
-
-.author2{
-	font-family: var(--title-font-family);
-	font-size: .8rem;
-	padding-top: 12rem;
-}
-
-.author3{
-	font-family: var(--title-font-family);
-	font-size: .8rem;
-	padding-top: -.5rem;
-}
-
-.year{
-	font-family: var(--title-font-family);
-	font-size: .8rem;
-	margin-top: -2.2rem;
-}
 
 footer{
 	margin: 0 -1.25rem -1.25rem;
