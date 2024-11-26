@@ -71,13 +71,13 @@ header p{
 }
 
 .booknumbers{
-	padding: 0 4rem 0 4rem;
+	padding: 0 1.25rem 0 1.25rem;
 	line-height: 4.5rem;
 }
 
 .book-title{
 	line-height: 3rem;
-	padding: 0 4rem;
+	padding: 0 1.25rem;
 }
 
 
@@ -100,6 +100,14 @@ footer{
 
 	.book1, .book2, .book3{
 		height: 200px;
+	}
+
+	.booknumbers{
+		padding: 0 4rem 0 4rem;
+	}
+	
+	.book-title{
+		padding: 0 4rem;
 	}
 
 	.book1:hover{
