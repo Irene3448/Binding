@@ -119,15 +119,13 @@ h2{
 	position: sticky;
 	top: 0;
 	background-color: var(--background-color);
-	/* padding-left: 3%; */
 }
 
 h3{
 	font-family: var(--title-font-family);
 	font-size: 1.6rem;
 	font-weight: 500;
-	margin: 0 -1.25rem;
-	padding: 1.2rem 1.25rem;
+	padding: 1.2rem 0;
 	position: sticky;
 	top: 0;
 	background-color: var(--background-color);
@@ -153,32 +151,33 @@ footer{
 }
 
 @media (min-width: 1280px){
-	body{
-		padding-right: 15%;
-}
 
-header{	padding-left: 3%;}
+	.navbar{
+		padding: 1% 6%
+	}
 
-h1{	padding-left: 3%;}
+	header{	padding-left: 3%;}
 
-#heading-number{padding-left: 3%;}
+	h1{	padding-left: 3%;}
 
-.author-info p{	padding-left: 3%;}
+	#heading-number{padding-left: 3%;}
 
-#first-h2{padding-left: 3%;}
+	.author-info p{	padding-left: 3%;}
 
-header p{
-	padding-left: 30%;
-	max-width: 62rem;
-}
+	#first-h2{padding-left: 3%;}
 
-h2{	padding-left: 3%;}
+	header p{
+		padding-left: 3%;
+		max-width: 62rem;
+	}
 
-h3{	padding-left: 31.5%;}
+	h2{	padding-left: 3%;}
 
-section p{	
-	max-width: 62rem;
-	padding-left: 30%;
-}
+	h3{	padding-left: 3%;}
+
+	section p{	
+		max-width: 62rem;
+		padding-left: 3%;
+	}
 
 }

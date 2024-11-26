@@ -23,6 +23,12 @@ header{
 h1{
 	padding-top: 2.2rem;
 }
+
+header h1:nth-child(2){
+	font-size: 2.8rem;
+	line-height: 3.5rem;
+}
+
 header p{
 	font-size: 1.125rem;
 	line-height: 2rem;
@@ -43,8 +49,9 @@ header p{
 }
 
 .book1, .book2, .book3{
+	font-size: 2.2rem;
 	width: 100%;
-	height: 400px;
+	height: 250px;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -64,81 +71,48 @@ header p{
 }
 
 .booknumbers{
-	/* padding: 1.5rem 1.25rem 2rem 1.25rem; */
-	padding: 0rem 1.25rem 2rem 1.25rem;
+	padding: 0 4rem 0 4rem;
 	line-height: 4.5rem;
 }
 
 .book-title{
-	line-height: 4.5rem;
-	padding: 0 1.25rem;
+	line-height: 3rem;
+	padding: 0 4rem;
 }
 
 
 footer{
-	margin: 0 -1.25rem -1.25rem;
+	margin: -2.5rem -1.25rem -1.25rem;
+	padding: -2.5rem 0;
 }
 
-@media(min-width: 1280px){
+@media(min-width: 768px){
 
+	body{ margin: -1.25rem 0 -1.25rem 0;}
 
-	.bookshelf{
-		display:grid;
-		width: 50%;
-
+	.container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4rem;
+		align-items: center;
+		padding: 2rem;
 	}
 
-	/* .book1{
-		width: 15%;
-		height: 32rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		text-align: center;
-		padding: 0.5rem;
-		position: relative;
-		overflow: hidden; */
+	.book1, .book2, .book3{
+		height: 200px;
 	}
 
 	.book1:hover{
 		background-color: red;
 	}
 
-
-	.book2{
-		width: 15%;
-		height: 32rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		text-align: center;
-		padding: 0.5rem;
-		position: relative;
-		overflow: hidden;
-	} 
-
 	.book2:hover{
 		background-color: lawngreen;
 	}
-
-	.book3{
-		width: 15%;
-		height: 32rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		text-align: center;
-		padding: 0.5rem;
-		position: relative;
-		overflow: hidden;
-	} 
 
 	.book3:hover{
 		background-color: blue;
 		color:white;
 	}
-	
+
 }
