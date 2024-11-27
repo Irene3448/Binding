@@ -32,14 +32,14 @@ nav{
 	font-weight: 600;
 	display: flex;
 	justify-content: center;
-	/* position: sticky; */
+	position: sticky;
 	z-index: 1000;
 	top:0;
-	background-color: white;
+	background-color: var(--background-color);
 	border-bottom: 1px solid black;
 	text-align: left;
 	margin: -1.25rem;
-	padding: 1rem 1.5rem; /*adjust side padding later*/
+	padding: .8rem 0;
 }
 
 nav ul{
@@ -63,7 +63,7 @@ nav a{
 
 header{
 	font-family: var(--title-font-family);
-	border-bottom-right-radius: 1.5rem;
+	/* border-bottom-right-radius: 1.5rem; */
 	margin: -1.25rem;
 	margin-top: var(--margin);
 	padding: 2rem 1.25rem;
@@ -107,7 +107,6 @@ em{
 	padding-top: 2.5rem;
 	position: sticky;
 	top: -1.6rem;
-	background-color: var(--background-color);
 }
 
 
@@ -119,7 +118,6 @@ h2{
 	padding: 1.2rem 0 1.2rem 0;
 	position: sticky;
 	top: 0;
-	background-color: var(--background-color);
 }
 
 h3{
@@ -129,7 +127,6 @@ h3{
 	padding: 1rem 0;
 	position: sticky;
 	top: 0;
-	background-color: var(--background-color);
 }
 
 
@@ -137,7 +134,7 @@ footer{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
 	font-weight: 450;
-	border-top-right-radius: 1.5rem;
+	/* border-top-right-radius: 1.5rem; */
 	margin: 2.5rem -1.25rem -1.25rem;
 	padding: 2.5rem 1.25rem;
 	padding-left: 5%;

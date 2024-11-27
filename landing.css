@@ -9,9 +9,9 @@
 	font-size: 16px;
 }
 
-header{
+/* header{
 	background-color: var(--accent-color);
-}
+} */
 
 header p{
 	font-size: 1.125rem;
@@ -22,9 +22,10 @@ header p{
 .bookshelf{
 	display:flex;
 	flex-direction: column;
+	gap:0.5rem;
 	align-items: center;
 	justify-content: center;
-	padding: 2rem 0;
+	padding-top: 2rem;
 }
 
 .book{
@@ -53,15 +54,15 @@ header p{
 }
 
 .book:nth-child(1){
-	background-color: #99B0FE;
+	background-color: #ADBFFD;
 }
 
 .book:nth-child(2){
-	background-color: #FF66FF;
+	background-color: #D0FF71;
 }
 
 .book:nth-child(3){
-	background-color: #CEC045;
+	background-color: #FF6735;
 }
 
 footer{
@@ -93,16 +94,20 @@ footer{
 	}
 
 	.book:hover:nth-child(1){
-		background-color: red;
+		background-color: #0000ff;
+		color:white;
+	}
+
+	.book:hover:nth-child(1) p:last-child{
+		border: 1px solid white;
 	}
 
 	.book:hover:nth-child(2){
-		background-color: lawngreen;
+		background-color: #00ff00;
 	}
 
 	.book:hover:nth-child(3){
-		background-color: blue;
-		color:white;
+		background-color: #ff0000;
 	}
 
 }
