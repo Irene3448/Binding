@@ -8,11 +8,6 @@
 	font-size: 16px;
 }
 
-/*nav-home*/
-/* #home{
-	text-decoration: underline;
-} */
-
 .navbar{
 	display: none;
 }
@@ -20,6 +15,7 @@
 header{
 	margin-top:-1.25rem;
 }
+
 h1{
 	padding-top: 2.2rem;
 }
@@ -36,89 +32,79 @@ header p{
 }
 
 .bookshelf{
-	font-family: var(--title-font-family);
-	font-size: 4.5rem;
-	font-weight: bold;
 	display:flex;
 	flex-direction: column;
 	gap: 1rem;
 	align-items: center;
 	justify-content: center;
 	padding: 2rem 0;
-	margin:-1.25rem;
 }
 
-.book1, .book2, .book3{
+.book{
+	font-family: var(--title-font-family);
 	font-size: 2.2rem;
+	font-weight: bold;
 	width: 100%;
 	height: 250px;
 	display: flex;
 	align-items: center;
 	position: relative;
 	overflow: hidden;
+	padding: 0 1.25rem;
+	line-height: 3rem;
+	border-bottom-right-radius:  1.5rem;
+	color: black;
 }
 
-.book1{
+.book:nth-child(1){
 	background-color: #99B0FE;
 }
 
-.book2{
+.book:nth-child(2){
 	background-color: #FF66FF;
 }
 
-.book3{
+.book:nth-child(3){
 	background-color: #CEC045;
 }
 
-.booknumbers{
-	padding: 0 1.25rem 0 1.25rem;
-	line-height: 4.5rem;
-}
-
-.book-title{
-	line-height: 3rem;
-	padding: 0 1.25rem;
-}
-
-
 footer{
-	margin: -2.5rem -1.25rem -1.25rem;
-	padding: -2.5rem 0;
+	font-family: var(--title-font-family);
+	font-size: 1.25rem;
+	margin: 2.5rem -1.25rem -1.25rem;
 }
 
 @media(min-width: 768px){
 
-	body{ margin: -1.25rem 0 -1.25rem 0;}
+	header p{ max-width: 85%;}
 
-	.container{
+	.grid-container{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 4rem;
-		align-items: center;
-		padding: 2rem;
+		gap: 6rem;
+		align-items: start;
+		padding: 4rem 5%;
 	}
 
-	.book1, .book2, .book3{
-		height: 200px;
+	.bookshelf{
+		/* display:flex; */
+		flex-direction: row;
+		gap: 1.5rem;
 	}
 
-	.booknumbers{
-		padding: 0 4rem 0 4rem;
-	}
-	
-	.book-title{
-		padding: 0 4rem;
+	.book{
+		height: 300px;
 	}
 
-	.book1:hover{
+	.book:hover:nth-child(1){
 		background-color: red;
 	}
 
-	.book2:hover{
+	.book:hover:nth-child(2){
 		background-color: lawngreen;
 	}
 
-	.book3:hover{
+	.book:hover:nth-child(3){
 		background-color: blue;
 		color:white;
 	}
