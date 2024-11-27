@@ -5,7 +5,7 @@
 	--body-font-family: 'albert sans';
 	--margin: 1.25rem;
 
-	--background-color: #F2F2F2;
+	--background-color: white;
 
 	font-size: 16px;
 }
@@ -29,13 +29,14 @@ h1{
 nav{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
-	font-weight:600;
+	font-weight: 600;
 	display: flex;
 	justify-content: center;
 	/* position: sticky; */
 	z-index: 1000;
 	top:0;
 	background-color: white;
+	border-bottom: 1px solid black;
 	text-align: left;
 	margin: -1.25rem;
 	padding: 1rem 1.5rem; /*adjust side padding later*/
@@ -155,7 +156,7 @@ footer{
 
 	nav{
 		justify-content: flex-start;
-		padding: 2% 3%;
+		padding: 1% 3%;
 	}
 
 	header{	padding: 5%;}
