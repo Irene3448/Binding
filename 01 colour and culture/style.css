@@ -1,63 +1,14 @@
 
-.navbar{
-	color:#99B0FE;
-}
-
 header{
 	background-color: #99B0FE;
 }
 
-/* #black{
-	background-color: black;
-	color: white;
-	padding: 0.5rem 1rem;
-	border-radius: 1.5rem;
-}
-
-#white{
-	background-color: lightgray;
-	padding: 0.5rem 1rem;
-	border-radius: 1.5rem;
-}
-
-#yellow{
-	background-color: gold;
-	padding: 0.5rem 1rem;
-	border-radius: 1.5rem;
-}
-
-#orange{
-	background-color: darkorange;
-	padding: 0.5rem 1rem;
-	border-radius: 1.5rem;
-}
-
-#red{
-	background-color: red;
-	padding: 0.5rem 1rem;
-	border-radius: 1.5rem;
-}
-
-#green{
-	background-color: limegreen;
-	padding: 0.5rem 1rem;
-	border-radius: 1.5rem;
-}
-
-#blue{
-	background-color: lightskyblue;
-	padding: 0.5rem 1rem;
-	border-radius: 1.5rem;
-}
-
-#purple{
-	background-color: plum;
-	padding: 0.5rem 1rem;
-	border-radius: 1.5rem;
-} */
-
 footer{
 	background-color: #99B0FE;
+}
+
+h2, h3{
+	color: #99B0FE;
 }
 
 #top{
