@@ -3,6 +3,11 @@
 	--accent-color: #ADBFFD;
 }
 
+nav ul li:nth-child(2){
+	background-color: var(--accent-color);
+	font-weight: bold;
+}
+
 header{
 	background-color: var(--accent-color);
 }
@@ -11,9 +16,9 @@ footer{
 	background-color: var(--accent-color);
 }
 
-h2, h3{
+/* h2, h3{
 	color: var(--accent-color)
-}
+} */
 
 #top{
 	background-color: var(--accent-color);

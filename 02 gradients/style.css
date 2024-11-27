@@ -1,12 +1,21 @@
 
+:root{
+	--accent-color: #D0FF71;
+}
+
+nav ul li:nth-child(3){
+	background-color: var(--accent-color);
+	font-weight: bold;
+}
+
 header{
-	background-color: #FF66FF;
+	background-color: var(--accent-color);
 }
 
 footer{
-	background-color: #FF66FF;
+	background-color: var(--accent-color);
 }
 
 #top{
-	background-color: #FF66FF;
+	background-color: var(--accent-color);
 }

@@ -14,9 +14,9 @@
 } */
 
 header p{
-	font-size: 1.125rem;
+	font-size: 1.5rem;
 	line-height: 2rem;
-	padding: 2rem 0;
+	/* padding: 2rem 0; */
 }
 
 .bookshelf{
@@ -74,13 +74,13 @@ footer{
 
 @media(min-width: 768px){
 
-	header p{ max-width: 85%;}
+	header p{ max-width: 90%;}
 
 	.grid-container{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 6rem;
-		align-items: start;
+		gap: 4rem;
+		align-items: center;
 		padding: 4rem 5%;
 	}
 
@@ -94,20 +94,15 @@ footer{
 	}
 
 	.book:hover:nth-child(1){
-		background-color: #0000ff;
-		color:white;
-	}
-
-	.book:hover:nth-child(1) p:last-child{
-		border: 1px solid white;
+		background-color: #849dff;
 	}
 
 	.book:hover:nth-child(2){
-		background-color: #00ff00;
+		background-color: #a5f55d;
 	}
 
 	.book:hover:nth-child(3){
-		background-color: #ff0000;
+		background-color: #ff4718;
 	}
 
 }
