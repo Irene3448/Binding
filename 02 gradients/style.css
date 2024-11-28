@@ -11,6 +11,10 @@ footer{
 	background-color: var(--accent-color);
 }
 
+.point{
+	color:var(--accent-color);
+}
+
 #top{
 	background-color: var(--accent-color);
 }
