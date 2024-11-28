@@ -2,6 +2,13 @@
 	--accent-color: FF6735;
 }
 
+nav ul li:nth-child(4) a{
+	background-color: #ff6735;
+	border-radius: 50%;
+	padding: .62rem .62rem;
+	font-weight: bold;
+}
+
 header{
 	background-color: var(--accent-color);
 }
