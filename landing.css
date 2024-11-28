@@ -55,14 +55,17 @@ header p{
 
 .book:nth-child(1){
 	background-color: #ADBFFD;
+	/* background: linear-gradient(90deg, #ffecd2, #fcb69f); */
 }
 
 .book:nth-child(2){
 	background-color: #D0FF71;
+	/* background: linear-gradient(135deg, #b2f2e5, #d6cbf9); */
 }
 
 .book:nth-child(3){
 	background-color: #FF6735;
+	/* background: linear-gradient(90deg, #ff595e, #ffca3a, #8ac926, #1982c4, #6a4c93); */
 }
 
 footer{
@@ -79,7 +82,7 @@ footer{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 4rem;
-		align-items: center;
+		align-items: flex-start;
 		padding: 4rem 5%;
 	}
 

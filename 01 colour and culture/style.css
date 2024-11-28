@@ -3,13 +3,6 @@
 	--accent-color: #ADBFFD;
 }
 
-/* nav ul li:nth-child(2){
-	background-color: var(--accent-color);
-	border-radius: 50%;
-	padding: .4rem .2rem;
-	font-weight: bold;
-} */
-
 header{
 	background-color: var(--accent-color);
 }
@@ -19,7 +12,7 @@ footer{
 }
 
 /* h2, h3{
-	color: var(--accent-color)
+	color: #849dff;
 } */
 
 #top{
