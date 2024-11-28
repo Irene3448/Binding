@@ -83,7 +83,7 @@ footer{
 		grid-template-columns: 1fr 1fr;
 		gap: 4rem;
 		align-items: flex-start;
-		padding: 4rem 5%;
+		padding: 4rem 5% 1rem 5%;
 	}
 
 	.bookshelf{
