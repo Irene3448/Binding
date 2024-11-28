@@ -26,7 +26,6 @@ h1{
 	padding-bottom: 2rem;
 }
 
-
 nav{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
@@ -74,7 +73,7 @@ header p{
 	font-weight: 450;
 	line-height: 2rem;
 	max-width: 90%;
-	padding-bottom: 2rem;
+	padding: 2rem 0;
 }
 
 section p{
@@ -179,7 +178,7 @@ footer{
 		font-weight: bold;
 	}
 
-	.grid{
+	/* .grid{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 0 4rem;
@@ -196,20 +195,19 @@ footer{
 		grid-column: 2/3;
 		align-items: flex-start;
 		text-align: left;
-	}
-
-	/* h1{	padding-left: 3%;} */
-
-	/* .author-info p{	padding-left: 3%;} */
+	} */
 
 	header{	padding: 5%;}
+
+	header p{max-width: 55%;}
 
 	h2{	padding-left: 3%;}
 
 	h3{	padding-left: 3%;}
 
 	section p{	
-		max-width: 46rem;
+		/* max-width: 46rem; */
+		max-width: 55%;
 		padding-left: 3%;
 	}
 

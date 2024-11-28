@@ -9,15 +9,11 @@
 	font-size: 16px;
 }
 
-/* header{
-	background-color: var(--accent-color);
-} */
-
-header p{
-	font-size: 1.5rem;
-	line-height: 2rem;
-	/* padding: 2rem 0; */
+body{
+	background-color: #ECEDEF;
 }
+
+h1{	line-height: 3.5rem;}
 
 .bookshelf{
 	display:flex;
@@ -25,7 +21,7 @@ header p{
 	gap:0.5rem;
 	align-items: center;
 	justify-content: center;
-	padding-top: 2rem;
+	padding-top: 4rem;
 }
 
 .book{
@@ -76,15 +72,15 @@ footer{
 
 @media(min-width: 768px){
 
-	header p{ max-width: 90%;}
-
+	header p{ max-width: 55%;}
+/* 
 	.grid-container{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 4rem;
 		align-items: flex-start;
 		padding: 4rem 5% 1rem 5%;
-	}
+	} */
 
 	.bookshelf{
 		display:flex;
