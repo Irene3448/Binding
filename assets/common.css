@@ -125,7 +125,6 @@ blockquote{
 	color: #999999;
 }
 
-
 footer{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
@@ -174,6 +173,8 @@ footer{
 		padding: .62rem .62rem;
 		font-weight: bold;
 	}
+
+	body{font-size: 1.25rem;}
 
 	header{	padding: 5%;}
 
