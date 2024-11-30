@@ -1,10 +1,11 @@
 
 :root{
-	--accent-color: #ADBFFD;
+	--accent-color: #adbffd;
+	--darker-color: #6C7BCC;
 }
 
 nav ul li:nth-child(2) a{
-	background-color: #adbffd;
+	background-color: var(--accent-color);
 	border-radius: 50%;
 	padding: .52rem .62rem;
 	font-weight: bold;
@@ -18,13 +19,13 @@ footer{
 	background-color: var(--accent-color);
 }
 
-/* h2, h3{
-	color: #849dff;
-} */
+h2, h3{
+	color: var(--darker-color);
+} 
 
 .point{
-	color:#849dff;
-}
+	color:var(--darker-color);
+} 
 
 #top{
 	background-color: var(--accent-color);

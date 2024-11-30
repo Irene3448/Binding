@@ -13,14 +13,6 @@ body{
 	background-color: #ECEDEF;
 }
 
-header{
-	/* padding-top: 2rem; */
-}
-
-h1{
-	/* line-height: 3.5rem; */
-}
-
 .bookshelf{
 	display:flex;
 	flex-direction: column;
@@ -101,11 +93,11 @@ footer{
 	}
 
 	.book:hover:nth-child(1){
-		background-color: #849dff;
+		background-color: #6C7BCC;
 	}
 
 	.book:hover:nth-child(2){
-		background-color: #a5f55d;
+		background-color: #89D244;
 	}
 
 	.book:hover:nth-child(3){
