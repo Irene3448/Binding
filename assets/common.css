@@ -28,7 +28,7 @@ h1{
 nav{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
-	font-weight: 600;
+	font-weight: 500;
 	display: flex;
 	justify-content: center;
 	position: sticky;
@@ -148,6 +148,10 @@ footer{
 	nav{
 		justify-content: flex-start;
 		padding: 1% 2.8%;
+	}
+
+	nav ul li:nth-child(1) a:hover{
+		font-weight: bold;
 	}
 
 	nav ul li:nth-child(2) a:hover{
