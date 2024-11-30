@@ -72,10 +72,15 @@ header p{
 	line-height: 2rem;
 	max-width: 90%;
 	padding: 2rem 0;
+
+	max-width: 43rem;
 }
 
 section p{
 	padding-bottom: 1.5rem;
+
+		
+	max-width: 43rem;
 }
 
 #heading-number{
@@ -122,6 +127,7 @@ h3{
 blockquote{
 	font-size: 1.25rem;
 	padding: 2% 7% 6% 7%;
+	max-width: 44rem;
 	color: #999999;
 }
 
@@ -142,11 +148,19 @@ footer{
 	bottom: 4.5vh;
 }
 
+@media (min-width: 425px){
+
+	nav{
+		justify-content: flex-start;
+	}
+
+}
+
 @media (min-width: 768px){
 
 	nav{
 		justify-content: flex-start;
-		padding: 1% 2.8%;
+		padding-left: 3%;
 	}
 
 	nav ul li:nth-child(1) a:hover{
@@ -178,20 +192,16 @@ footer{
 
 	header{	padding: 5%;}
 
-	header p{max-width: 55%;}
-
 	h2{	padding-left: 3%;}
 
 	h3{	padding-left: 3%;}
 
 	section p{	
-		max-width: 55%;
 		padding-left: 3%;
 	}
 
 	blockquote{
 		font-size: 1.5rem;
-		max-width: 46rem;
 	}
 
 }
