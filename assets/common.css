@@ -140,6 +140,10 @@ footer{
 	padding-left: 5%;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 #top{
 	padding: .5rem 1rem;
 	border-radius: 50%;
