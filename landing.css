@@ -21,6 +21,8 @@ body{
 	background-color: #F5F6F8;
 }
 
+h1{padding: 0 1.25rem 2rem 1.25rem;}
+
 div{
 	margin:-1.25rem;
 }
@@ -82,7 +84,10 @@ footer{
 
 @media(min-width: 768px){
 
-	header p{ max-width: 55%;}
+	header p{ 
+		/* max-width: 55%; */
+		max-width: 41.5rem;
+	}
 
 	.bookshelf{
 		display:flex;

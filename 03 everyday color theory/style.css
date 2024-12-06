@@ -15,10 +15,6 @@ header{
 	background-color: var(--accent-color);
 }
 
-footer{
-	background-color: var(--accent-color);
-}
-
 h2, h3{
 	color: var(--darker-color);
 } 
@@ -37,7 +33,6 @@ h2, h3{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 2rem;
-	
 	}
 	
 	header{
@@ -49,10 +44,6 @@ h2, h3{
 	
 	.article {
 		grid-column: 2;
-	}
-	
-	footer{
-		margin-top: -0.3rem;
 	}
 	
 	}
