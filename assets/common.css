@@ -78,7 +78,9 @@ header p{
 
 section p{
 	padding-bottom: 1.5rem;
-	max-width: 43rem;
+	/* max-width: 43rem; */
+
+	max-width: 41.5rem;
 }
 
 #heading-number{
@@ -192,7 +194,9 @@ html{
 
 	body{font-size: 1.25rem;}
 
-	header{	padding: 5%;}
+	header{
+		padding: 5%;
+	}
 
 	h2{	padding-left: 3%;}
 
@@ -205,6 +209,5 @@ html{
 	blockquote{
 		font-size: 1.5rem;
 	}
-
 
 }
