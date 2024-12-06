@@ -135,8 +135,8 @@ footer{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
 	font-weight: 450;
-	margin: 2.5rem -1.25rem -1.25rem;
-	padding: 2.5rem 1.25rem;
+	/* margin: 2.5rem -1.25rem -1.25rem; */
+	padding: 2rem 1.25rem;
 	padding-left: 5%;
 }
 

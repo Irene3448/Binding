@@ -13,15 +13,14 @@ nav{
 	display:none;
 }
 
-/* nav ul li:nth-child(1) a{
-	font-weight: bold;
-} */
-
 body{
 	background-color: #F5F6F8;
+	margin-top:-1.25rem;
 }
 
-h1{padding: 0 1.25rem 2rem 1.25rem;}
+/* h1{padding-bottom: 2rem;} */
+
+header p{padding-bottom: 2rem;}
 
 div{
 	margin:-1.25rem;
