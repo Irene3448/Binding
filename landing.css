@@ -17,8 +17,6 @@ body{
 	margin-top:-1.25rem;
 }
 
-/* h1{padding-bottom: 2rem;} */
-
 header p{padding-bottom: 2rem;}
 
 div{
@@ -41,9 +39,7 @@ div{
 	width: 100%;
 	display: flex;
 	position: relative;
-	/* padding: 2rem 1.25rem; */
 	padding: 3rem;
-
 	line-height: 3rem;
 	color: black;
 }
@@ -76,21 +72,17 @@ footer{
 	font-family: var(--title-font-family);
 	font-size: 1.25rem;
 	margin: 2.5rem -1.25rem -1.25rem;
-
-	/* margin-top: -0.3rem; */
 }
 
 @media(min-width: 768px){
 
 	header p{ 
-		/* max-width: 55%; */
 		max-width: 41.5rem;
 	}
 
 	.bookshelf{
 		display:flex;
 		flex-direction: row;
-		/* padding: 0 2%; */
 	}
 
 	.book{
